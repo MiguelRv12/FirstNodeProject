@@ -1,0 +1,11 @@
+PUT http://localhost:4001/api/tickets/79213db0-2f03-44a7-acca-9f4b57e100fe HTTP/1.1
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2Njk1MDIwMmU0ZDA2NjU2YTQ2MWU4MzEiLCJyb2xlIjoidXNlciIsImlhdCI6MTcyMTYzODg4NywiZXhwIjoxNzIxNjQyNDg3fQ.E4fS56iSB5Ntmhei2KzoQCT9_NnOt541pok4epoxU7c
+
+{
+  "user": "Miguel",
+  "title": "Ticket #3",
+  "description": "My first own ticket edited again",
+  "priority": "low",
+  "status": "open"
+}

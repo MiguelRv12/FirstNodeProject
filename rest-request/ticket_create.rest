@@ -1,0 +1,11 @@
+POST http://localhost:4001/api/tickets HTTP/1.1
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2Njk1MDIwMmU0ZDA2NjU2YTQ2MWU4MzEiLCJyb2xlIjoidXNlciIsImlhdCI6MTcyMTYzODg4NywiZXhwIjoxNzIxNjQyNDg3fQ.E4fS56iSB5Ntmhei2KzoQCT9_NnOt541pok4epoxU7c
+
+{
+  "user": "Miguel",
+  "title": "Ticket #3",
+  "description": "My first own ticket to be updated",
+  "priority": "low",
+  "status": "open"
+}

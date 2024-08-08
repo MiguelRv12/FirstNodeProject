@@ -1,0 +1,1 @@
+GET http://localhost:4001/api/tickets/ac7527ea-ff8d-4ac9-a52a-10a85ae13195 HTTP/1.1
